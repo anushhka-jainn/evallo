@@ -23,18 +23,19 @@ Built with *Node.js (Express)* and *React (Vite)*. Data is stored in a JSON file
 
 ### Backend
 
-bash
+```bash
 cd backend
 npm install
 node app.js
-
+```
 Runs on: http://localhost:5000
 
 ###  frontend
-bash
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Runs on: http://localhost:5173
 
