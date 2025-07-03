@@ -1,0 +1,50 @@
+[
+  {
+    "level": "error",
+    "message": "Failed to connect to DB",
+    "resourceId": "server-1234",
+    "timestamp": "2025-07-03T12:00:00Z",
+    "traceId": "abc-xyz-123",
+    "spanId": "span-456",
+    "commit": "5e5342f",
+    "metadata": {
+      "parentResourceId": "server-5678"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User logged in successfully",
+    "resourceId": "frontend-app-001",
+    "timestamp": "2025-07-03T14:30:00Z",
+    "traceId": "trace-001",
+    "spanId": "span-xyz-001",
+    "commit": "abc1234",
+    "metadata": {
+      "parentResourceId": "frontend-app-root"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "High memory usage detected",
+    "resourceId": "monitor-001",
+    "timestamp": "2025-07-02T11:45:00Z",
+    "traceId": "trace-warn-003",
+    "spanId": "span-warn-003",
+    "commit": "ghi789",
+    "metadata": {
+      "parentResourceId": "monitoring-service"
+    }
+  },
+  {
+    "level": "error",
+    "message": "DB connection failed",
+    "resourceId": "api-db-001",
+    "timestamp": "2025-07-02T09:15:00Z",
+    "traceId": "trace-xyz-002",
+    "spanId": "span-db-002",
+    "commit": "def456",
+    "metadata": {
+      "parentResourceId": "backend-cluster"
+    }
+  }
+]
